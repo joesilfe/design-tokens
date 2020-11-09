@@ -1,0 +1,27 @@
+{
+  "name": "tokens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Tokens Base Architecture",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "web": "theo src/tokens.yml --transform web --format scss --dest dist"
+  },
+  "keywords": [
+    "tokens",
+    "design tokens",
+    "design system"
+  ],
+  "author": "Joel Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "theo": "^8.1.5"
+  }
+}
